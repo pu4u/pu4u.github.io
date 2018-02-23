@@ -1,6 +1,117 @@
 body {
-  background-color: #eee;
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
+
+  background-color: #000;
+  /*background: linear-gradient(to right, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+  */
   font-size: 14px;
-  color: #404040;
+  color: #202040;
   text-align: center;
+}
+#pict{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+  top: -30;
+}
+.im_g{
+  font-size: 8px;
+  font-stretch: ultra-condensed;
+}
+img {
+  width:360px;
+
+  padding-top: -20px;
+}
+.lef {
+
+  text-align: right;
+}
+pre {
+  font-family: fantasy;
+}
+h4 {
+  text-align: left;
+  position: absolute;
+  left:320px;
+  color: #ff9900;
+  text-shadow: 0px 0px 8px rgba(255, 153, 0, 1);
+
+}
+.butcont{
+  position:fixed;
+  bottom: 20px;
+  left:20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+.but {
+
+  margin:  5px;
+
+  width: 70px;
+  height: 20px;
+  border:1px solid #586be6;
+  border-radius: 2px;
+  text-align: center;
+  color: #586be6;
+  transition: 0.5s;
+}
+.but a{
+  text-decoration: none;
+  color: #586be6;
+}
+.but:hover{
+  background: #ff8c00;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+.but a:hover{
+  color:000;
+}
+.wordblock{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border:1px solid #2000e6;
+  border-radius: 5px;
+  width:650px;
+  margin-left: 100px;
+}
+.wordblock i{
+  color:#ffae00;
+}
+.wordblock p{
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  color: #aaa;
+  text-indent: 10px;
+}
+.wordblock a{
+  color:#ffffff;
+  text-decoration: none;
+  transition: 1s;
+}
+.wordblock a:hover{
+  text-decoration: underline;
+}
+.zagblock {
+  border-radius: 5px 5px 0px 0px;
+  border:1px solid #2000e6;
+  color: #ff8c00;
+  position: relative;
+  left: 40px;
+  top: -30px;
+  height: 20px;
+  width: 70px;
+  background: #000;
 }
