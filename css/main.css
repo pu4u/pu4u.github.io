@@ -78,13 +78,15 @@ h4 {
 }
 .wordblock{
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding-top: 20px;
   padding-bottom: 30px;
   border:1px solid #2000e6;
   border-radius: 5px;
   width:650px;
   margin-left: 100px;
+  font-family: fantasy;
+  font-size: 18px;
 }
 .wordblock i{
   color:#ffae00;
